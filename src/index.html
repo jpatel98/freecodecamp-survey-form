@@ -1,0 +1,123 @@
+<html>
+  <main>
+    <header class="header">
+    <h1 id="title">Feedback Form</h1>
+      <p id="description">We are continously improving! Thank you for your feedback.</p>
+    </header>
+    <div class="meme">
+      <a><img src="https://i.imgflip.com/5zxlnf.jpg" width="400" 
+     height="250"></a>
+      </div>
+    <form id="survey-form">
+      <div class="form-all">
+        <label id="name-label" for="name">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+          required></input>
+      </div>
+      <div class="form-all">
+        <label id="email-label" for="name">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+          required></input>
+      </div>
+      <div class="form-all">
+        <label id="number-label" for="age" >Age</label>
+        <input
+          type="number"
+          name="age"
+          id="number"
+          min="16"
+          max="99"
+          placeholder="Age"></input>
+      </div>
+      <div class="form-all">
+        <label id="role-label" for="role">What is your current role?</label><br>
+        <select id="dropdown" name="role"required>
+        <option disabled selected value>Select current role</option>
+        <option value="student">Student</option>
+        <option value="job">Working in the industry</option>
+        <option value="learner">Educator</option>
+        <option value="preferNo">Prefer not to say</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    <div class="form-all">
+      <label id="likeness-label" for="likeness">Do you like our website</label><br>
+      <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          checked
+        />Yes, it's great.
+      <input
+          name="user-recommend"
+          value="maybe"
+          type="radio"
+        />No, it needs work.
+      </div>
+      <div class="form-all">
+        <label id="improvements" for="improvement">What can we improve in the website? (select all that apply)</label><br>
+        <input
+          name="user-recommend"
+          value="code syntax"
+          type="checkbox"
+        />Code syntax
+        <input
+          name="user-recommend"
+          value="Accessibility"
+          type="checkbox"
+        />Accessibility
+        <input
+          name="user-recommend"
+          value="Graphics"
+          type="checkbox"
+        />Graphics
+        <input
+          name="user-recommend"
+          value="Content"
+          type="checkbox"
+        />Content
+        <input
+          name="user-recommend"
+          value="Speed"
+          type="checkbox"
+        />Speed
+        <input
+          name="user-recommend"
+          value="Speed"
+          type="checkbox"
+        />Navigation
+        <input
+          name="user-recommend"
+          value="Design"
+          type="checkbox"
+        />Design
+        <input
+          name="user-recommend"
+          value="Responsive"
+          type="checkbox"
+        />Responsive
+        <div class="form-all">
+      <label id="suggestions">Any comments and/or suggestions<br></label>
+          <textarea id="comments" name="comment"
+        placeholder="Enter your comments here..."
+      ></textarea>
+        <div class="form-all">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+    </form>
+  </main>
+</html>
+      
+
+      
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
